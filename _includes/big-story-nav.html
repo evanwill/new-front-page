@@ -1,0 +1,48 @@
+<div class="container-fluid header-border">
+    <header class="d-flex align-items-center justify-content-between">
+        
+        <img id="nav-logo" src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder logo" >
+        
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        
+        <button id="menu-button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        
+    </header>
+    <div class="collapse" id="collapseMenu">
+
+        <div class="d-flex align-items-center justify-content-center">
+            <a class="m-4" href="">About</a>
+            <a class="m-4" href="">Home</a>
+            <a class="m-4" href="">Browse</a>
+        </div>
+        
+        <div id="nav-list" class="bg-dark text-white">
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="flex-fill"><h2>Viz</h2></div>
+                <div class="vr mx-4"></div>
+                <div class="flex-fill"><h2>Stories</h2></div>
+                <div class="vr mx-4"></div>
+                <div class="flex-fill"><h2>Subjects</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md">
+                    <h2>Viz</h2>
+                </div>
+                <div class="col-md">
+                    <h2>Stories</h2>
+                </div>
+                <div class="col-md">
+                    <h2>Subjects</h2>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+</div>

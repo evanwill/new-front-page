@@ -2,3 +2,35 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+$header-height: 80px;
+.header-border {
+    border-top: 8px solid black;
+    position: fixed;
+    top:0;
+    background: white;
+    z-index: 99;
+}
+header {
+    padding: 1rem 5rem;
+    height: $header-height;
+}
+#nav-logo {
+    max-height: 100%;
+}
+#menu-button {
+    height: 100%;
+    width: 45px;
+    border: none;
+    background: none;
+}
+#collapseMenu {
+    height: calc(100vh - 80px);
+    border-top: 1px solid grey;
+}
+#nav-list {
+    padding: 2rem 6rem;
+    border-top: 1px solid grey;
+}
+main {
+    margin-top: $header-height;
+}
